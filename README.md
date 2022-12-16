@@ -2,7 +2,6 @@
 
 Easy Vue3 app to start learning this JS framework! :)
 
-![Image text](https://github.com/lucas-jb/vue3-numberlist/blob/main/.img/image1.PNG)
 ![Image text](https://github.com/lucas-jb/vue3-numberlist/blob/main/.img/image2.PNG)
 
 ## Project Setup
