@@ -40,14 +40,21 @@
 
 <template>
   <h1>Añade números a la lista</h1><br>
-  <button @click="increment" class="btn btn-success">Aumentar</button>
-  <button @click="dencrement" class="btn btn-danger">Disminuir</button>
-  <button @click="reset" class="btn btn-secondary">Reset</button>
-  <button :disabled="isInArray" @click="add" class="btn btn-primary">Add</button>
-  
+  <h2 :class="classChanger" style="text-align:center;">{{cont}}</h2><br>
+  <div class="btn-group">
+    <button @click="increment" class="btn btn-success">Aumentar</button>
+    <button @click="dencrement" class="btn btn-danger">Disminuir</button>
+    <button button @click="reset" class="btn btn-secondary">Reset</button>
+    <button :disabled="isInArray" @click="add" class="btn btn-primary">Add</button>
+  </div>
+  <br>
+  <ul class="list-group">
+    <li class="list-group-item" v-for="(num,index) in arrayFavs" :key="index">
+      {{num}}
+    </li>
+  </ul>
 
-  <h2 :class="classChanger">{{cont}}</h2>
-  <h2>{{arrayFavs}}</h2>
+
 </template>
 
 <style>
