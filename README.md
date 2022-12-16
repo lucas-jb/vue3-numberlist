@@ -1,4 +1,7 @@
 # vue3-numberlist
+
+Easy Vue3 app to start learning this JS framework! :)
+
 ![Image text](https://github.com/lucas-jb/vue3-numberlist/blob/main/.img/image.PNG)
 
 
